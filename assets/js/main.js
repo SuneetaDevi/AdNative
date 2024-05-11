@@ -176,31 +176,58 @@
   /**
    * Testimonials slider
    */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
+  // new Swiper('.testimonials-slider', {
+  //   speed: 600,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false
+  //   },
+  //   slidesPerView: 'auto',
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //     type: 'bullets',
+  //     clickable: true
+  //   },
+  //   breakpoints: {
+  //     320: {
+  //       slidesPerView: 1,
+  //       spaceBetween: 20
+  //     },
 
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      }
-    }
-  });
+  //     1200: {
+  //       slidesPerView: 3,
+  //       spaceBetween: 20
+  //     }
+  //   }
+  // });
+
+  /**
+ * Init swiper sliders
+ */
+  function initSwiper() {
+    // Wait for the DOM to fully load
+    document.addEventListener('DOMContentLoaded', function () {
+      // Select all elements with class "swiper"
+      document.querySelectorAll('.swiper').forEach(function (swiper) {
+        // Find the .swiper-config element inside each swiper element
+        let configElement = swiper.querySelector('.swiper-config');
+        if (configElement) {
+          // If configElement is found, parse its innerHTML as JSON
+          let config = JSON.parse(configElement.innerHTML.trim());
+          // Initialize Swiper with the config
+          new Swiper(swiper, config);
+        } else {
+          // Log an error if .swiper-config is not found
+          console.error('Swiper config element not found inside swiper.');
+        }
+      });
+    });
+  }
+
+  // Call initSwiper when the DOM is fully loaded
+  initSwiper();
+
 
   /**
    * Porfolio isotope and filter
