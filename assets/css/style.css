@@ -508,7 +508,7 @@ h6 {
   margin-top: 100px;
 }
 
-#hero .icon-box .text-wrapper-2 {
+#hero .icon-box .purecounter {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -836,7 +836,7 @@ h6 {
   text-align: center;
 }
 
-.stat-card h3 {
+.stat-card .purecounter {
   font-size: 3em;
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -1023,6 +1023,8 @@ h6 {
   background: #16213e;
   height: 100%;
   border-radius: 10px;
+  width: 610px;
+  height: 506px;
 }
 
 .services .service-item .icon {
@@ -1288,7 +1290,7 @@ h6 {
   left: 56px;
 }
 
-.frame .text-wrapper-4 {
+.frame .purecounter {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -1299,6 +1301,8 @@ h6 {
   letter-spacing: -0.8px;
   line-height: normal;
 }
+
+
 
 .frame .div-wrapper {
   display: inline-flex;
