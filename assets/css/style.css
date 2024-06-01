@@ -122,6 +122,13 @@ h6 {
   /* border-bottom: 1px solid #e6f2fb; */
 }
 
+.custom-logo {
+  width: 100px;
+  /* Adjust the width as needed */
+  height: 200px;
+  /* This will maintain the aspect ratio */
+}
+
 #header.header-scrolled {
   background: #fff;
   /* Change background to white on scroll */
@@ -1091,6 +1098,123 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Our Services Section
+--------------------------------------------------------------*/
+.services_item_pastproject {
+  padding: 60px 0;
+}
+
+.services_item_pastproject .service-item1 {
+  padding: 40px;
+  background: transparent;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* .services_item_pastproject .service-item1 h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #ffff;
+} */
+
+.services_item_pastproject .service-item1 h3 {
+  color: #ffff;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  padding-bottom: 8px;
+  font-size: 55px;
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 4px solid #eeeeee; */
+  transition: 0.3s;
+}
+
+.services_item_pastproject .service-item1 p {
+  line-height: 24px;
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #39FF14;
+}
+
+/* 
+.services_item_pastproject .service-item1 p {
+  margin-bottom: 0;
+  color: #39FF14;
+} */
+
+.services_item_pastproject .service-item {
+  padding: 40px;
+  background: #16213e;
+  height: 100%;
+  border-radius: 10px;
+  width: 410px;
+  height: 526px;
+}
+
+.services_item_pastproject .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.services_item_pastproject .service-item .icon i {
+  color: var(--color-default);
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.services_item_pastproject .service-item .icon:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #eeeeee;
+  border-radius: 50px;
+  z-index: 1;
+  top: 10px;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.services_item_pastproject .service-item h3 {
+  color: var(--color-default);
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  padding-bottom: 8px;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 4px solid #eeeeee; */
+  transition: 0.3s;
+}
+
+.services_item_pastproject .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #a5a5a5;
+}
+
+.services_item_pastproject .service-item ul {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #a5a5a5;
+}
+
+
+.services_item_pastproject .service-item:hover .icon:before {
+  background: #00b6a1;
+}
+
+.services_item_pastproject .service-item:hover h3 {
+  border-color: var(--color-primary);
+}
+
+/*--------------------------------------------------------------
 # Projects
 --------------------------------------------------------------*/
 .frame {
@@ -1123,6 +1247,7 @@ h6 {
   position: relative;
   flex: 0 0 auto; */
 }
+
 
 .frame .text-wrapper {
   position: relative;
@@ -1262,6 +1387,25 @@ h6 {
   height: 458px;
   top: 8px;
   left: 40px;
+}
+
+.arrow-forward {
+  width: 50px;
+  /* Adjust the size as needed */
+  height: 50px;
+  /* Adjust the size as needed */
+  background-color: #39FF14;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-forward img {
+  width: 24px;
+  /* Adjust the size as needed */
+  height: 24px;
+  /* Adjust the size as needed */
 }
 
 .frame .image {
@@ -1863,6 +2007,7 @@ section {
   padding-bottom: 30px;
 }
 
+
 .section-title-center h2 {
   font-size: 32px;
   font-family: "Poppins", sans-serif;
@@ -2060,6 +2205,7 @@ section {
   font-size: 26px;
 }
 
+
 .about_project_overview .content ul {
   list-style: none;
   padding: 0;
@@ -2218,7 +2364,7 @@ section {
 }
 
 .about_percentage_project .content ul {
-  list-style: none;
+  list-style: circle;
   padding: 0;
 }
 
@@ -2279,8 +2425,19 @@ section {
   margin-bottom: 30px;
 }
 
+.stat-card-project .purecounter {
+  font-size: 3em;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.project_img {
+  border-radius: 50px;
+  /* Adjust the value as needed */
+}
+
 .stats_container_project {
-  display: flex;
+  /* display: flex; */
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -2417,4 +2574,14 @@ section {
 
 .social a i {
   line-height: 0;
+}
+
+/* Additional CSS for adjusting the logo size in the footer */
+.footer img {
+  max-width: 150px;
+  /* Adjust this value as needed */
+  height: auto;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  /* This keeps the aspect ratio intact */
 }
