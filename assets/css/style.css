@@ -1330,7 +1330,7 @@ h6 {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 450px) and (min-width: 360px) {
   .services_item_pastproject .service-item {
     padding: 40px;
     background: #16213e;
@@ -1529,7 +1529,7 @@ h6 {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 450px) and (min-width: 360px) {
   .label .project_text {
     position: relative;
     align-self: stretch;
@@ -1718,7 +1718,7 @@ h6 {
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 450px) and (min-width: 360px) {
   #project_read_more .btn-learn-more {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -1837,7 +1837,7 @@ h6 {
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 450px) and (min-width: 360px) {
   .frame {
     width: 100%;
     padding: 60px 12px;
@@ -2308,7 +2308,7 @@ h6 {
 }
 
 /* Media Queries for Smaller Screens */
-@media (max-width: 360px) {
+@media (max-width: 450px) and (min-width: 360px) {
   .frame_onBoard {
     flex-direction: column-reverse;
     padding: 49px 8px;
@@ -2850,7 +2850,7 @@ section {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 450px) and (min-width: 360px) {
   .about_project_overview .content ul {
     list-style: none;
     padding-left: 24px;
@@ -3081,7 +3081,7 @@ section {
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 450px) and (min-width: 360px) {
   .project_img {
     margin-left: -1px;
     width: 1200px;
