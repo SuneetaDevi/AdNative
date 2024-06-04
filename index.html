@@ -39,6 +39,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
 </head>
 
 <body>
@@ -67,6 +68,25 @@
     </div>
   </header><!-- End Header -->
 
+
+  <script>
+    let lastScrollTop = 0;
+    const navbar = document.getElementById('header');
+
+    window.addEventListener('scroll', function () {
+      let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (scrollTop > lastScrollTop) {
+        // Scrolling down
+        navbar.style.top = "-100px";  // Adjust this value based on your navbar's height
+      } else {
+        // Scrolling up
+        navbar.style.top = "0";
+      }
+      lastScrollTop = scrollTop;
+    });
+  </script>
+
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
@@ -82,7 +102,6 @@
         <a href="pastproject.html" class="btn-get-started scrollto">Get free Audit</a>
         <a href="#about" class="btn-learn-more scrollto">Learn more <i class="bi bi-arrow-right"></i></a>
       </div>
-
       <div class="row icon-boxes">
 
         <div class="col-md-9 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0 frame_hero" data-aos="zoom-in"
@@ -122,6 +141,7 @@
         </div>
 
       </div>
+
 
     </div>
 

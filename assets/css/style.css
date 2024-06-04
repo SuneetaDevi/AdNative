@@ -122,6 +122,10 @@ h6 {
   /* border-bottom: 1px solid #e6f2fb; */
 }
 
+#header {
+  transition: top 0.3s;
+}
+
 .custom-logo {
   width: 100px;
   /* Adjust the width as needed */
@@ -702,6 +706,30 @@ h6 {
   line-height: normal;
 }
 
+@media (max-width: 1200px) {
+  .frame_hero {
+    position: relative;
+    width: 295px;
+    height: 354px;
+    margin-left: 25px;
+    background-image: url(./img/rectangle-7.svg);
+    background-size: 100% 100%;
+  }
+
+  #hero .description {
+    position: absolute;
+    width: 265px;
+    top: 264px;
+    left: 32px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #b3b3b3;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+}
+
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
@@ -713,12 +741,31 @@ h6 {
   padding: 10px 0;
 }
 
-.clients .swiper-slide img {
-  transition: 0.3s;
+.clients .swiper-slide {
+  text-align: center;
+  /* Ensures images are centered within the slide */
+  padding: 10px;
+  /* Adds padding around the image */
 }
 
+.clients .swiper-slide img {
+  width: 100%;
+  /* Ensures image is not wider than its container */
+  height: 80px;
+  /* Increase this value to the desired maximum height */
+  transition: 0.3s;
+  /* Smooth transition for hover effect */
+  display: block;
+  /* Removes unwanted space below images */
+  margin: auto;
+  /* Centers image in the slide */
+}
+
+
+
 .clients .swiper-slide img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  /* Reduce scale factor to prevent overflow */
 }
 
 .clients .swiper-pagination {
@@ -736,6 +783,13 @@ h6 {
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .clients .swiper-slide img {
+    max-height: 120px;
+    /* Smaller max-height for smaller devices */
+  }
 }
 
 /*--------------------------------------------------------------
@@ -2437,8 +2491,8 @@ section {
 }
 
 .stats_container_project {
-  /* display: flex; */
-  justify-content: space-around;
+  display: flex;
+  /* justify-content: space-around; */
   flex-wrap: wrap;
 }
 
