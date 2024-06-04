@@ -1151,6 +1151,38 @@ h6 {
   border-color: var(--color-primary);
 }
 
+@media (max-width: 1200px) {
+  .services .service-item {
+    padding: 40px;
+    background: #16213e;
+    height: 100%;
+    border-radius: 10px;
+    width: 339px;
+    height: 454px;
+  }
+
+  .services .service-item ul {
+    line-height: 24px;
+    font-size: 9px;
+    margin-bottom: 0;
+    color: #a5a5a5;
+  }
+
+  .services .service-item h3 {
+    color: var(--color-default);
+    font-weight: 700;
+    margin: 0 0 0px 0;
+    padding-bottom: 8px;
+    font-size: 19px;
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 4px solid #eeeeee; */
+    transition: 0.3s;
+  }
+
+
+}
+
 /*--------------------------------------------------------------
 # Our Services Section
 --------------------------------------------------------------*/
@@ -1266,6 +1298,36 @@ h6 {
 
 .services_item_pastproject .service-item:hover h3 {
   border-color: var(--color-primary);
+}
+
+@media (max-width: 1200px) {
+  .services_item_pastproject .service-item {
+    padding: 40px;
+    background: #16213e;
+    height: 100%;
+    border-radius: 10px;
+    width: 223px;
+    height: 454px;
+  }
+
+  .services_item_pastproject .service-item ul {
+    line-height: 16px;
+    font-size: 9px;
+    margin-bottom: 0;
+    color: #a5a5a5;
+  }
+
+  .services_item_pastproject .service-item h3 {
+    color: var(--color-default);
+    font-weight: 700;
+    margin: 0 0 0px 0;
+    padding-bottom: 8px;
+    font-size: 19px;
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 4px solid #eeeeee; */
+    transition: 0.3s;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1422,6 +1484,19 @@ h6 {
   font-size: 18px;
   letter-spacing: 0;
   line-height: 30px;
+}
+
+@media (max-width: 1200px) {
+  .label .project_text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
 }
 
 .frame .overlap-group-wrapper {
@@ -1603,6 +1678,101 @@ h6 {
 #project_read_more .btn-learn-more:hover {
   color: #000;
   background: #39FF14;
+}
+
+@media (max-width: 1200px) {
+  .frame {
+    width: 100%;
+    padding: 60px 12px;
+    /* This will make the frame take the full width of its parent */
+    display: flex;
+    justify-content: center;
+    /* This centers the content horizontally */
+    align-items: center;
+    /* This centers the content vertically */
+    flex-direction: column;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* gap: 64px; */
+    /* position: relative; */
+    background: rgba(3, 38, 90, 0.466);
+    border-radius: 16px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  }
+
+  .frame .div-4 {
+    display: flex;
+    flex-direction: column;
+    width: 396px;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 47px;
+    left: 56px;
+  }
+
+  .frame .overlap-group-wrapper {
+    position: absolute;
+    width: 392px;
+    height: 490px;
+    top: 40px;
+    left: 476px;
+    background-color: #ffffff0a;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .frame .overlap-group {
+    position: relative;
+    width: 10px;
+    height: 458px;
+    top: 8px;
+    left: 20px;
+  }
+
+  .frame .image {
+    position: absolute;
+    width: 359px;
+    height: 277px;
+    top: 181px;
+    left: 0;
+    object-fit: cover;
+  }
+
+  .frame .img {
+    position: absolute;
+    width: 282px;
+    height: 292px;
+    top: 0;
+    left: 45px;
+  }
+
+  .frame .div-5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 440px;
+    left: 23px;
+  }
+
+  .frame .div-6 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 440px;
+    left: 207px;
+  }
+
+  .frame .arrow-forward {
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    top: 457px;
+    left: 365px;
+  }
+
 }
 
 
@@ -2287,6 +2457,13 @@ section {
   margin-bottom: 0;
 }
 
+@media (max-width: 1200px) {
+  .about_project_overview .content p:last-child {
+    margin-top: -59px;
+    margin-bottom: 11px;
+  }
+}
+
 /* About US */
 .container-about_project_overview {
   max-width: 1200px;
@@ -2500,7 +2677,7 @@ section {
   background: #ffffff0a;
   padding: 20px;
   border-radius: 10px;
-  margin: 10px;
+  margin: 16px;
   width: calc(23% - 20px);
   box-sizing: border-box;
   height: 200px;
@@ -2567,6 +2744,37 @@ section {
   .about_percentage_project-heading {
     font-size: 1.5em;
   }
+}
+
+@media (max-width: 1200px) {
+  .project_img {
+    margin-left: -1px;
+    width: 1200px;
+    height: 500px;
+  }
+
+  .stats_container_project {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+  }
+
+  .stat-card-project {
+    background: #ffffff0a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 16px;
+    width: calc(23% - 20px);
+    box-sizing: border-box;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
 }
 
 /*--------------------------------------------------------------
