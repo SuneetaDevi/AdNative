@@ -382,6 +382,9 @@ h6 {
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
+  color: #000000;
+  /* background: transparent; */
+  border: 2px solid #39FF14;
 }
 
 .navbar-mobile .dropdown ul {
