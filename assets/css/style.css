@@ -540,12 +540,12 @@ h6 {
   position: relative;
   width: fit-content;
   font-family: "Poppins-Medium", Helvetica;
-  font-weight: 500;
+  font-weight: 400;
   color: #ffffff;
-  font-size: 32px;
-  text-align: center;
+  font-size: 29px;
+  text-align: left;
   letter-spacing: -0.64px;
-  line-height: normal;
+  line-height: inherit;
 }
 
 #hero .icon-box {
@@ -1125,6 +1125,18 @@ h6 {
   margin: 0 0 10px 0;
   padding-bottom: 8px;
   font-size: 22px;
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 4px solid #eeeeee; */
+  transition: 0.3s;
+}
+
+.services .service-item h4 {
+  color: var(--color-default);
+  font-weight: 700;
+  margin: 15px 0 0 0;
+  padding-bottom: 8px;
+  font-size: 19px;
   position: relative;
   display: inline-block;
   /* border-bottom: 4px solid #eeeeee; */
@@ -2223,7 +2235,7 @@ h6 {
 
 .frame_onBoard .text-wrapper-4 {
   position: absolute;
-  top: 17px;
+  top: 25px;
   left: 26px;
   font-family: "Poppins-SemiBold", Helvetica;
   font-weight: 600;
@@ -2271,7 +2283,7 @@ h6 {
 .frame_onBoard .text-wrapper-5 {
   left: 23px;
   position: absolute;
-  top: 17px;
+  top: 25px;
   font-family: "Poppins-SemiBold", Helvetica;
   font-weight: 600;
   color: #ffffff;
@@ -2283,7 +2295,7 @@ h6 {
 .frame_onBoard .text-wrapper-6 {
   left: 22px;
   position: absolute;
-  top: 17px;
+  top: 25px;
   font-family: "Poppins-SemiBold", Helvetica;
   font-weight: 600;
   color: #ffffff;
@@ -2295,7 +2307,7 @@ h6 {
 .frame_onBoard .image-wrapper {
   position: relative;
   width: 567px;
-  height: 968px;
+  height: 1259px;
   background-color: #ffffff0a;
   border-radius: 16px;
   overflow: hidden;
@@ -2304,7 +2316,7 @@ h6 {
 .frame_onBoard .image {
   position: absolute;
   width: 567px;
-  height: 968px;
+  height: 1259px;
   top: 0;
   left: 0;
   object-fit: cover;
