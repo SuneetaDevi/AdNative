@@ -480,7 +480,7 @@ h6 {
   }
 
   .mobile-nav-hide {
-    color: #fff;
+    color: #03004b;
     font-size: 32px;
     cursor: pointer;
     line-height: 0;
@@ -1258,8 +1258,8 @@ h6 {
     background: #16213e;
     height: 100%;
     border-radius: 10px;
-    width: 339px;
-    height: 454px;
+    width: 411px;
+    height: 521px;
   }
 
   .services .service-item ul {
