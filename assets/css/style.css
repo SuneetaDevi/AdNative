@@ -491,6 +491,10 @@ h6 {
     z-index: 9999;
   }
 
+  .header.sticked .mobile-nav-show {
+    color: #000000;
+  }
+
   .mobile-nav-active {
     overflow: hidden;
   }
@@ -818,6 +822,32 @@ h6 {
     line-height: normal;
   }
 }
+
+@media (max-width: 450px) and (min-width: 330px) {
+  .frame_hero {
+    position: relative;
+    width: 295px;
+    height: 354px;
+    margin-left: 25px;
+    background-image: url(./img/rectangle-7.svg);
+    background-size: 100% 100%;
+  }
+
+  #hero .description {
+    position: absolute;
+    width: 245px;
+    top: 264px;
+    left: 32px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #b3b3b3;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Clients Section
@@ -1282,6 +1312,36 @@ h6 {
   }
 
 
+}
+
+@media (max-width: 450px) and (min-width: 330px) {
+  .services .service-item {
+    padding: 40px;
+    background: #16213e;
+    height: 100%;
+    border-radius: 10px;
+    width: 394px;
+    height: 521px;
+  }
+
+  .services .service-item ul {
+    line-height: 24px;
+    font-size: 9px;
+    margin-bottom: 0;
+    color: #a5a5a5;
+  }
+
+  .services .service-item h3 {
+    color: var(--color-default);
+    font-weight: 700;
+    margin: 0 0 0px 0;
+    padding-bottom: 8px;
+    font-size: 19px;
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 4px solid #eeeeee; */
+    transition: 0.3s;
+  }
 }
 
 /*--------------------------------------------------------------
