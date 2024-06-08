@@ -1208,21 +1208,40 @@ h6 {
 }
 
 .services .service-item .icon {
+  width: 78px;
+  /* Adjust the size as needed */
+  height: 78px;
+  /* Adjust the size as needed */
+  background-color: #2a3f58;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 29px;
+}
+
+/* .services .service-item .icon {
   width: 48px;
   height: 48px;
   position: relative;
   margin-bottom: 50px;
-}
+} */
 
-.services .service-item .icon i {
+.services .service-item .icon img {
   color: var(--color-default);
   font-size: 56px;
   transition: ease-in-out 0.3s;
   z-index: 2;
   position: relative;
+  width: 229px;
+  height: 42px;
 }
 
-.services .service-item .icon:before {
+
+
+
+
+/* .services .service-item .icon:before {
   position: absolute;
   content: "";
   height: 100%;
@@ -1233,7 +1252,7 @@ h6 {
   top: 10px;
   right: -20px;
   transition: 0.3s;
-}
+} */
 
 .services .service-item h3 {
   color: var(--color-default);
