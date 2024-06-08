@@ -548,7 +548,7 @@ h6 {
 }
 
 #hero .container {
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 #hero h1 {
@@ -562,7 +562,7 @@ h6 {
 
 @media (max-width: 450px) and (min-width: 330px) {
   #hero .container {
-    padding-top: -9px;
+    /* padding-top: -9px; */
   }
 
   #hero h1 {
@@ -1033,8 +1033,8 @@ h6 {
 --------------------------------------------------------------*/
 .about {
   /* background: url("../img/ppc/Rectangle 7.png"); */
-  /* background: linear-gradient(-90deg, #021f40, #01111c); */
-  background-color: #ffffff0a;
+  background: linear-gradient(-90deg, #021f40, #01111c);
+  /* background: linear-gradient(to bottom, #120047 0%, #120047 10%, #01111c 5%, #01111c 100%); */
   background-size: 100% auto;
   /* Specify the width as 100% and let the height adjust automatically */
   background-position: center;
