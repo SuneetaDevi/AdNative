@@ -915,10 +915,10 @@ h6 {
   line-height: normal;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1343px) {
   .frame_hero {
     position: relative;
-    width: 295px;
+    width: 355px;
     height: 354px;
     margin-left: 25px;
     background-image: url(./img/rectangle-7.svg);
@@ -936,6 +936,54 @@ h6 {
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+  }
+
+  #hero .icon-box .text-wrapper-4 {
+    position: relative;
+    width: 275px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 29px;
+    text-align: left;
+    letter-spacing: -0.64px;
+    line-height: inherit;
+  }
+}
+
+@media (max-width: 1200px) {
+  .frame_hero {
+    position: relative;
+    width: 350px;
+    height: 354px;
+    margin-left: 25px;
+    background-image: url(./img/rectangle-7.svg);
+    background-size: 100% 100%;
+  }
+
+  #hero .description {
+    position: absolute;
+    width: 265px;
+    top: 237px;
+    left: 32px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #b3b3b3;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  #hero .icon-box .text-wrapper-4 {
+    position: relative;
+    width: 275px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 29px;
+    text-align: left;
+    letter-spacing: -0.64px;
+    line-height: inherit;
   }
 }
 
