@@ -771,7 +771,7 @@ h6 {
 
   #hero .icon-box .text-wrapper-4 {
     position: relative;
-    width: 212px;
+    width: 257px;
     font-family: "Poppins-Medium", Helvetica;
     font-weight: 400;
     color: #ffffff;
@@ -951,7 +951,7 @@ h6 {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1345px) and (min-width: 990px) {
   .frame_hero {
     position: relative;
     width: 350px;
