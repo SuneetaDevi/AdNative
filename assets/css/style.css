@@ -6,10 +6,10 @@ body {
   color: #ffffff;
   /* background: linear-gradient(to bottom, #120047, #01111c); */
   /* background: linear-gradient(to bottom, #120047 10%, #01111c 10%); */
-  /* background: linear-gradient(to bottom, #120047 2%, #01111c 2%); */
+  background: linear-gradient(to bottom, #120047 0%, #120047 2%, #01111c 5%, #01111c 100%);
   /* background: linear-gradient(to bottom, #120047 0%, #120047 10%, #01111c 100%); */
 
-  background: linear-gradient(to bottom, #120047 0%, #120047 1%, #01111c 100%);
+  /* background: linear-gradient(to bottom, #120047 0%, #120047 1%, #01111c 100%); */
   /* background: linear-gradient(to bottom, #120047 0%, #120047 2%, #01111c 100%); */
   /* background: linear-gradient(5deg, #000E1E, #2c2b53); */
   /* background: linear-gradient(to bottom, #4e73df, #4d6afc, #3762f3); */
