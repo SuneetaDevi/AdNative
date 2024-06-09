@@ -915,7 +915,7 @@ h6 {
   line-height: normal;
 }
 
-@media (min-width: 1343px) {
+@media (max-width: 1400px) {
   .frame_hero {
     position: relative;
     width: 355px;
@@ -951,10 +951,10 @@ h6 {
   }
 }
 
-@media (max-width: 1345px) and (min-width: 990px) {
+@media (max-width: 1200px) {
   .frame_hero {
     position: relative;
-    width: 350px;
+    width: 295px;
     height: 354px;
     margin-left: 25px;
     background-image: url(./img/rectangle-7.svg);
@@ -964,19 +964,19 @@ h6 {
   #hero .description {
     position: absolute;
     width: 265px;
-    top: 237px;
-    left: 32px;
+    top: 264px;
+    left: 18px;
     font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
     color: #b3b3b3;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
   }
 
   #hero .icon-box .text-wrapper-4 {
     position: relative;
-    width: 275px;
+    width: 256px;
     font-family: "Poppins-Medium", Helvetica;
     font-weight: 400;
     color: #ffffff;
@@ -985,7 +985,20 @@ h6 {
     letter-spacing: -0.64px;
     line-height: inherit;
   }
+
+  .frame_hero .text-wrapper-3 {
+    position: relative;
+    width: 275px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: -0.64px;
+    line-height: normal;
+  }
 }
+
 
 @media (max-width: 450px) and (min-width: 330px) {
   .frame_hero {
