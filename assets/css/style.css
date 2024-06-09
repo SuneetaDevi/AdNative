@@ -53,12 +53,12 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #000000;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #3e9bdd;
+  background: #39FF14;
   color: #fff;
 }
 
@@ -3764,7 +3764,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #5c9f24;
+  background: #39FF14;
   color: #fff;
   text-decoration: none;
 }
@@ -3838,14 +3838,15 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #5c9f24;
-  color: #fff;
+  font-family: inherit;
+  background: #39FF14;
+  color: #000000;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #6ab82a;
+  background: #39FF14;
 }
 
 #footer .copyright {
