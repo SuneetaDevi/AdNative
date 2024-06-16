@@ -4,15 +4,11 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  /* background: linear-gradient(to bottom, #120047, #01111c); */
-  /* background: linear-gradient(to bottom, #120047 10%, #01111c 10%); */
-  background: linear-gradient(to bottom, #120047 0%, #120047 1%, #022034 5%, #022034 100%);
-  /* background: linear-gradient(to bottom, #120047 0%, #120047 10%, #01111c 100%); */
 
-  /* background: linear-gradient(to bottom, #120047 0%, #120047 1%, #01111c 100%); */
-  /* background: linear-gradient(to bottom, #120047 0%, #120047 2%, #01111c 100%); */
-  /* background: linear-gradient(5deg, #000E1E, #2c2b53); */
-  /* background: linear-gradient(to bottom, #4e73df, #4d6afc, #3762f3); */
+  background: linear-gradient(to bottom, #120047 0%, #120047 1%, #022034 5%, #022034 100%);
+  /* background: linear-gradient(to bottom, #120047 0%, #120047 1%, #022034 5%, #022034 50%, #6FA9EA 100%); */
+  /* background: linear-gradient(to bottom, #120047 0%, #120047 1%, #022034 5%, #022034 50%, #6FA9EA 100%); */
+
 }
 
 a {
@@ -1480,13 +1476,13 @@ h6 {
   border-color: var(--color-primary);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1392px) {
   .services .service-item {
     padding: 40px;
     background: #16213e;
     height: 100%;
     border-radius: 10px;
-    width: 411px;
+    width: 528px;
     height: 521px;
   }
 
